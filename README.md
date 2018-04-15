@@ -6,14 +6,14 @@ This project uses a dataset with 50,000 reviews provided by Maas and others.
 
 Large Movie Review Dataset v1.0
 
-Overview
+## Overview
 
 This dataset contains movie reviews along with their associated binary
 sentiment polarity labels. It is intended to serve as a benchmark for
 sentiment classification. This document outlines how the dataset was
 gathered, and how to use the files provided.
 
-Dataset
+## Dataset
 
 The core dataset contains 50,000 reviews split evenly into 25k train
 and 25k test sets. The overall distribution of labels is balanced (25k
@@ -31,7 +31,7 @@ more neutral ratings are not included in the train/test sets. In the
 unsupervised set, reviews of any rating are included and there are an
 even number of reviews > 5 and <= 5.
 
-Files
+## Files
 
 There are two top-level directories [train/, test/] corresponding to
 the training and test sets. Each contains [pos/, neg/] directories for
@@ -67,7 +67,7 @@ each token in [imdb.vocab] as computed by (Potts, 2011). The expected
 rating is a good way to get a sense for the average polarity of a word
 in the dataset.
 
-Citing the dataset
+## Citing the dataset
 
 When using this dataset please cite our ACL 2011 paper which
 introduces it. This paper also contains classification results which
@@ -86,13 +86,13 @@ you may want to compare against.
   url       = {http://www.aclweb.org/anthology/P11-1015}
 }
 
-References
+## References
 
 Potts, Christopher. 2011. On the negativity of negation. In Nan Li and
 David Lutz, eds., Proceedings of Semantics and Linguistic Theory 20,
 636-659.
 
-Contact
+## Contact
 
 For questions/comments/corrections please contact Andrew Maas
 amaas@cs.stanford.edu
